@@ -6,6 +6,10 @@
 
   {% seo %}
 
+  {% if site.image %}
+  <meta property="og:image" content="{{ site.image.path }}" />
+  {% endif %}
+
   <!-- CSS -->
   <link rel="stylesheet" href="{{ "/assets/styles/main.css" | relative_url }}">
 
