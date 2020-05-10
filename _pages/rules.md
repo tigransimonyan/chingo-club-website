@@ -6,7 +6,7 @@ permalink: /rules
 
 ## Rules
 
-Chingo Club is a PVP turn-based strategy mobile board game. A match of Chingo Club is played via internet connection by 2 players using the Chingo Club game application on 2 separate iOS/Android devices.
+Chingò Club is a PVP turn-based strategy mobile board game. A match of Chingò Club is played via internet connection by 2 players using the Chingò Club game application on 2 separate iOS/Android devices.
 
 The game is played on a rectangular checkered board, 7 squares wide and 6 squares deep. Each player begins the game with 14 units under his/her control, placed in the 2 rows closest to their owner. Each of the units is armed with 1 of 3 weapons: Rock, Paper or Scissors. The weapons are distributed randomly, giving each player at least 3 units armed with each weapon.
 
