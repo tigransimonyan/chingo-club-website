@@ -1,14 +1,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-  {% seo %}
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
   <meta name="msapplication-TileColor" content="#000000">
   <meta name="theme-color" content="#000000">
   <meta name="twitter:card" content="summary">
@@ -17,10 +9,22 @@
   {% if site.image %}
   <meta property="og:image" content="{{ site.url }}{{ site.image.path }}" />
   {% endif %}
+  {% seo %}
 
-  <!-- CSS -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+  <link rel="stylesheet" href="{{ "/assets/styles/bootstrap.min.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/styles/main.css" | relative_url }}">
 
-  <!-- RSS -->
   {% feed_meta %}
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80014037-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-80014037-1');
+  </script>
 </head>
